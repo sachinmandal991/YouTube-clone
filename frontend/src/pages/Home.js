@@ -23,7 +23,7 @@ function Home() {
   }, [searchQuery]);
 
   return (
-    <div className="container">
+    <div className="container" style={{ marginLeft: '260px' }}>
       <div className="video-grid">
         {videos.map(video => (
           <div key={video._id} className="video-card" onClick={() => navigate(`/video/${video._id}`)}>

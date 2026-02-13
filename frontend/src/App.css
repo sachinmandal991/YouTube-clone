@@ -14,6 +14,11 @@ body {
   max-width: 1200px;
   margin: 80px auto 20px 260px;
   padding: 0 20px;
+  transition: margin-left 0.2s;
+}
+
+.container.mini-sidebar {
+  margin-left: 92px;
 }
 
 .video-grid {
@@ -111,6 +116,11 @@ button:hover {
   max-width: 1200px;
   margin: 80px auto 20px 260px;
   padding: 0 20px;
+  transition: margin-left 0.2s;
+}
+
+.video-player-container.mini-sidebar {
+  margin-left: 92px;
 }
 
 .video-player {

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
@@ -33,7 +33,7 @@ function VideoPlayer() {
   if (!video) return <div>Loading...</div>;
 
   return (
-    <div className="video-player-container">
+    <div className="video-player-container" style={{ marginLeft: '260px' }}>
       <video className="video-player" controls src={`http://localhost:5000/${video.videoUrl}`} />
       <div className="video-details">
         <h2>{video.title}</h2>
